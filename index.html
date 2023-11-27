@@ -27,7 +27,6 @@
             margin: auto;
             max-height: 600px;
         }
-        
     </style>
 </head>
 
@@ -45,8 +44,9 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Testimonials</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
                 </ul>
             </div>
         </div>
@@ -90,37 +90,96 @@
         </a>
     </div>
 
-    <div class="container text-center">
-        <h3>What is Gaming Addiction?</h3><br>
-        <div class="row">
-            <div class="col-sm-4">
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-                <p>Current Project</p>
-            </div>
-            <div class="col-sm-2">
-                <div class="well">
-                    <p>Contact</p>
-                </div>
-                <div class="well">
-                    <p>FAQs</p>
-                </div>
-            </div>
+    <hr>
 
-            <div class="container text-center">
-                <h3>Resources</h3><br>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%"
-                            alt="Image">
-                        <p>Project 2</p>
+    <main>
+        <section class="container">
+            <article class="main-row">
+                <div class="main-col">
+                    <h3>What is Gaming Addiction?</h3>
+                    <p>Gaming addiction is...
+                        texttexttexttexttexttexttexttexttext
+                    </p><br>
+                </div>
+
+                <div class="main-col">
+                    <div class="container text-center">
+                        <div class="col-sm-4">
+                            <img src="assets/img/late.jpg" class="img-responsive" style="width:100%"
+                                alt="drawing of a male playing video games with lights off.">
+                        </div><br>
+                        <div class="col-sm-2">
+                            <div class="well">
+                                <a href="#contact">Contact Us</a>
+                            </div>
+                            <div class="well">
+                                <a href="faqs.html">FAQs</a>
+                            </div>
+                            <p> text from wireframe </p>
+                        </div>
                     </div>
                 </div>
-            </div><br>
+            </article><br>
+            <hr><br>
+        
 
-            <footer class="container-fluid text-center">
-                <p>© 2023 Level Down</p>
-            </footer>
+        <section class="container">    
+            <article class="resources-row">
+                <div class="resouces-col">
+                    <div class="col-sm-4">
+                        <img src="assets/img/support.jpg" class="img-responsive" style="width:100%" alt="Image">
+                    </div>
+                    <h3>Resources</h3>
+                    <p>text regarding resources</p>
+
+                    <h3>Latest News & Resources</h3>
+                    <div class="container text-center">
+                        <div class="col-sm-2">
+                            <div class="well">
+                                <a href="https://www.straitstimes.com/singapore/community/dad-saddled-with-20000-credit-card-bill-after-daughters-in-game-purchase-spree-on-genshin-impact">Daughter Spends $20,000 of Father's Money on Game</a>
+                            </div>
+                            <div class="well">
+                                <a href="https://www.gamingaddictioncounseling.com/">Gaming Addiction Counseling</a>
+                            </div>
+                            <div class="well">
+                                <a href="https://www.samhsa.gov/find-help/national-helpline">SAMHSA National Helpline</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section><hr>
+
+        <section id="contact" class="container">
+            
+            <h2>Contact Us</h2>
+            <p>We would love to hear from you.  Please send us any questions or concerns.  If you know someone who needs help, do not hesitate to reach out to us or direct them to this website.</p>
+            <!--insert contact form-->
+            <form id="experience_form">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Write your name"><br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Write your email"><br>
+                <label for="about">About: </label>
+                <textarea name="experience" id="experience"
+                    placeholder="Please share with us your thoughts."></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+
+
+    <footer class="container-fluid text-center">
+        <p>© 2023 Level Down</p>
+    </footer>
 
 </body>
 
 </html>
+
+<!--Need to change when clicking on testimonals tab, tab is highlighted to testiominals tab, is currently highlighted to home.-->
+<!--Need to work on formatting of sections like wireframe, section main - need to have image, contact/FAQS to the right of the text.
+in resources, need to have latest news allgign with resources-->
+<!--Need to fill in contact us, may need to create a FAQ's section/page?  Should be easy if page needs to be created, need to fill in information, may want to do away without it.
+Night thought - Combine FAQ and Testimonials? no.-->
